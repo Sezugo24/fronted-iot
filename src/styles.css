@@ -71,7 +71,6 @@
     left: 50%;
     transform: translate(-50%,-50%);
     background: #262626;
-    text-align: center;
   }
   .box h1{
     color: white;
