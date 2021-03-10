@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
-import { PopupUserComponent } from '../components/popup-user/popup-user.component';
+import { PopupUserComponent } from '../components/listado-superusuario/popup-user/popup-user.component';
 
 @Injectable()
 export class ConfirmationDialogService {

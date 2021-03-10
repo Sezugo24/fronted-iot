@@ -1,0 +1,38 @@
+<form class="box espaciado" action="index.html" method="post">
+  <h1 style=" font-family: 'Syne Mono', monospace; text-align: center;">Super Usuarios</h1>
+</form>
+<form  >
+
+    <table class=" table-dark table-bordered table table-hover">
+      
+      <thead>
+        <tr>
+          <th style=" margin-left: auto; margin-right: auto;color: #00e17b; font-family: 'Patrick Hand SC', cursive; ">Id</th>
+          <th style=" margin-left: auto; margin-right: auto;color: #00e17b; font-family: 'Patrick Hand SC', cursive; ">Nombre</th>
+          <th style=" margin-left: auto; margin-right: auto;color: #00e17b; font-family: 'Patrick Hand SC', cursive; ">Email</th>
+          <th style=" margin-left: auto; margin-right: auto;color: #00e17b; font-family: 'Patrick Hand SC', cursive; ">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users, let i = index" >
+          <td>{{i+1}}</td>
+          <td><strong>{{user.nombre}}</strong></td>
+          <td><strong>{{user.email}}</strong></td>
+          <td><button (click) = "openConfirmationDialog(user.nombre )" class="btn btn-danger btn-sm" > Delete</button>
+            <button class="btn btn-success btn-sm"> Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <form class="box" action="index.html" method="post">
+    <div>
+      <input class="btn btn-success btn-sm" type="submit" (click)="verRegistrar()" type="submit" name="" value="Nuevo usuario">
+    </div>
+  </form>
+  </form>
+    
+  
+  
+
+ 
+  

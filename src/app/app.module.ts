@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 //import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegistrarComponent } from './components/registrar/registrar.component';
+import { RegistrarComponent } from './components/listado-superusuario/registrar/registrar.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { IngresarComponent } from './components/ingresar/ingresar.component';
@@ -16,8 +16,9 @@ import {ConfirmationDialogService} from './service/popup-user.service'
 
 //Rutas
 import {APP_ROUTING} from './app-routing.module';
-import { CrudUserComponent } from './components/crud-user/crud-user.component';
-import { PopupUserComponent } from './components/popup-user/popup-user.component';
+import { CrudUserComponent } from './components/listado-superusuario/crud-user/crud-user.component';
+import { PopupUserComponent } from './components/listado-superusuario/popup-user/popup-user.component';
+import { ListadoSuperusuarioComponent } from './components/listado-superusuario/listado-superusuario.component';
 
 
 
@@ -29,7 +30,8 @@ import { PopupUserComponent } from './components/popup-user/popup-user.component
     HomeComponent,
     IngresarComponent,
     CrudUserComponent,
-    PopupUserComponent
+    PopupUserComponent,
+    ListadoSuperusuarioComponent
   ],
   imports: [
     BrowserModule,

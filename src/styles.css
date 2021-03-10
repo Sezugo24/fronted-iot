@@ -119,3 +119,11 @@
 
   .navbar-toggler { font-size: 40px; }
   .navbar-toggler:focus { outline: none; }
+
+  .espaciado{
+    padding: 30px;
+  }
+
+  th{
+    font-size: 150%;
+  }

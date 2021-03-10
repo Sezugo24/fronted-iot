@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { superUsuario, } from '../../service/usuarios.service';
-import {ConfirmationDialogService} from '../../service/popup-user.service';
+import { superUsuario, } from '../../../service/usuarios.service';
+import {ConfirmationDialogService} from '../../../service/popup-user.service';
 import { HttpClient } from "@angular/common/http";
 
 @Component({
