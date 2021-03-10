@@ -63,15 +63,7 @@
     font-family: sans-serif;
     background: #34495e;
   }
-  .box{
-    width: 500px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #262626;
-  }
+  
   .box h1{
     color: white;
     text-transform: uppercase;
@@ -93,7 +85,7 @@
   }
   .box input[type = "text"]:focus,.box input[type = "password"]:focus{
     width: 280px;
-    border-color: #2ecc71;
+    border-color: #00e17b;
   }
   .box input[type = "submit"]{
     border:0;
@@ -101,7 +93,7 @@
     display: block;
     margin: 20px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
+    border: 2px solid #00e17b;
     padding: 14px 40px;
     outline: none;
     color: white;
@@ -110,5 +102,20 @@
     cursor: pointer;
   }
   .box input[type = "submit"]:hover{
-    background: #2ecc71;
+    background: #00e17b;
   }
+
+
+  
+
+  .navbar {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-height: 100px;
+}
+
+  .nav-link { color: var(--dark-color); }
+  .nav-link:hover { color: var(--dark-color); }
+
+  .navbar-toggler { font-size: 40px; }
+  .navbar-toggler:focus { outline: none; }

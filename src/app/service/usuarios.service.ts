@@ -3,7 +3,7 @@ import { stringify } from '@angular/compiler/src/util';
 
 
 export interface superUsuario {
-    nombre: string;
+    email: string;
     password: string;
 }
 
@@ -12,11 +12,11 @@ export class SuperUsuariosService {
 
     private superUsuarios: superUsuario[] = [
         {
-            nombre: "juan",
+            email: "juan",
             password: "1234"
         },
         {
-            nombre: "sebastian",
+            email: "sezugo@gmail.com",
             password: "abc" 
         }
     ];
@@ -34,7 +34,7 @@ export class SuperUsuariosService {
         termino = termino.toLowerCase(); //Recibimos nuestro termino y mediente de la funcion toLowerCase todo nyestro texto será en minuscula
         let index : number = -1;
         for (let usuario of this.superUsuarios){          
-          let nombre = usuario.nombre.toLowerCase();
+          let nombre = usuario.email.toLowerCase();
           if (nombre.indexOf(termino) >=0 ){
             usuariosArr.push(usuario);
           }    

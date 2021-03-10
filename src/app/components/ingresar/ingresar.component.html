@@ -1,6 +1,14 @@
-<form class="box" action="index.html" method="post">
-    <h1 style=" font-family: 'Syne Mono', monospace;">Ingresar</h1>
-    <input [(ngModel)] ="email" type="text" name="email" placeholder="Email">
-    <input [(ngModel)] ="password" type="password" name="password" placeholder="Password">
-    <input (click)="verCrudUser()" type="submit" name="" value="Ok">
-  </form>
+<div class="jumbotron jumbotron-fluid animated fadeIn fast  " style="background-color: #262626;">
+  <div class="container">
+    <form class="box" action="index.html" method="post">
+      <h1 style=" font-family: 'Syne Mono', monospace; text-align: center; padding: 20px;">Ingresar</h1>
+      <input [(ngModel)] ="email" type="text" name="email" placeholder="Email" autocomplete="off">
+      <input [(ngModel)] ="password" type="password" name="password" placeholder="Password" autocomplete="off">
+      <div style="padding: 5px;">
+        <input  (click)="verCrudUser()" type="submit" name="" value="Ok" >
+      </div>
+      </form>
+    </div>
+</div>
+
+
