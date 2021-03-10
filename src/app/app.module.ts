@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 //import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,10 +12,12 @@ import { IngresarComponent } from './components/ingresar/ingresar.component';
 
 //servicios
 import {SuperUsuariosService} from './service/usuarios.service';
+import {ConfirmationDialogService} from './service/popup-user.service'
 
 //Rutas
 import {APP_ROUTING} from './app-routing.module';
 import { CrudUserComponent } from './components/crud-user/crud-user.component';
+import { PopupUserComponent } from './components/popup-user/popup-user.component';
 
 
 
@@ -25,16 +28,19 @@ import { CrudUserComponent } from './components/crud-user/crud-user.component';
     NavbarComponent,
     HomeComponent,
     IngresarComponent,
-    CrudUserComponent
+    CrudUserComponent,
+    PopupUserComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     APP_ROUTING
     
   ],
   providers: [
-    SuperUsuariosService
+    SuperUsuariosService,
+    ConfirmationDialogService
   ],
   bootstrap: [AppComponent]
 })

@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "juan",
+        "password": "1234",
+        "email": "iotuco6@gmail.com"
+    },
+    {
+        "nombre": "sebastian",
+        "password": "abc",
+        "email": "iotuco6@gmail.com"
+    },
+    {
+        "nombre": "Brian",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com" 
+    },
+    {
+        "nombre": "Joahan",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com" 
+    },
+    {
+        "nombre": "Emanuel",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com" 
+    },
+    {
+        "nombre": "jefferson",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    },
+    {
+        "nombre": "Andres",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    },
+    {
+        "nombre": "Jhaider",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    },
+    {
+        "nombre": "jefferson",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    },
+    {
+        "nombre": "Sara",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    },
+    {
+        "nombre": "Sorany",
+        "password": "abc123",
+        "email": "iotuco6@gmail.com"  
+    }
+]
